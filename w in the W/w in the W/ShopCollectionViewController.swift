@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import CoreLocation
 
-private let reuseIdentifier = "Cell"
+private let reuseIdentifier = "Shop"
 
 class ShopCollectionViewController: UICollectionViewController {
+    
+    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

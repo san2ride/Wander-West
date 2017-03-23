@@ -15,6 +15,7 @@
 		A46258DB1E8378DC00A9EC41 /* ShopCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46258DA1E8378DC00A9EC41 /* ShopCollectionViewController.swift */; };
 		A46258DD1E83790700A9EC41 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46258DC1E83790700A9EC41 /* MoreTableViewController.swift */; };
 		A46258DF1E837C0E00A9EC41 /* InstaMeetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46258DE1E837C0E00A9EC41 /* InstaMeetsCollectionViewController.swift */; };
+		A46258E11E838B7C00A9EC41 /* ShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46258E01E838B7C00A9EC41 /* ShopCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A46258DA1E8378DC00A9EC41 /* ShopCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopCollectionViewController.swift; sourceTree = "<group>"; };
 		A46258DC1E83790700A9EC41 /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
 		A46258DE1E837C0E00A9EC41 /* InstaMeetsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaMeetsCollectionViewController.swift; sourceTree = "<group>"; };
+		A46258E01E838B7C00A9EC41 /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		A46258D51E83751900A9EC41 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A46258E01E838B7C00A9EC41 /* ShopCollectionViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46258E11E838B7C00A9EC41 /* ShopCollectionViewCell.swift in Sources */,
 				A46258DB1E8378DC00A9EC41 /* ShopCollectionViewController.swift in Sources */,
 				A46258DD1E83790700A9EC41 /* MoreTableViewController.swift in Sources */,
 				A46258D71E8377EA00A9EC41 /* ProductsTableViewController.swift in Sources */,
