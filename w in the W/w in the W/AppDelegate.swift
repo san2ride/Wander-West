@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let rootViewController = window!.rootViewController as! UINavigationController
+        let ShopsViewController = rootViewController.topViewController as! ShopViewController
+        ShopsViewController.shops = ShopAPI()
+        
         return true
     }
 

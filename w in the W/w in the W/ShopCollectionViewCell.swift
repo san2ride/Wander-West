@@ -2,7 +2,7 @@
 //  ShopCollectionViewCell.swift
 //  w in the W
 //
-//  Created by don't touch me on 3/22/17.
+//  Created by don't touch me on 3/23/17.
 //  Copyright © 2017 trvl, LLC. All rights reserved.
 //
 
